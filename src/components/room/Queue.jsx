@@ -1,7 +1,5 @@
-//import { useState } from "react";
-//import { useEffect } from "react";
 import Customer from "./Customer";
-const Queue = ({ count, customers, setQueue }) => {
+const Queue = ({ customers }) => {
   return (
     <div className="queue">
       {customers.map((c, ind) => (

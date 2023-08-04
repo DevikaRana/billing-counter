@@ -39,10 +39,7 @@ const Room = () => {
         {queues.map((c, ind) => (
           <Queue
             key={ind}
-            count={c.custCount}
             customers={c.cust}
-            totalItems={c.totalItems}
-            setQueue={setQueues}
           />
         ))}
       </div>
