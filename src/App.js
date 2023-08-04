@@ -1,7 +1,7 @@
 import "./App.css";
 import CounterTable from "./components/counter/CounterTable";
 import Room from "./components/room/Room";
-//import Waiting from "./components/waitingQueue/Waiting";
+
 
 function App() {
   return (

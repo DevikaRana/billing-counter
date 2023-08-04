@@ -16,16 +16,10 @@ export const Waiting = ({
       { itemCount: customer.itemCount },
     ];
     queues[minQueue].totalItems += customer.itemCount;
-    setQueues([...queues]);
+    setQueues(queues);
   };
 
-  // const handleRemoveCustomer = () => {
-  //   let removedCust = queues[0].cust.shift();
-  //   queues[0].custCount = queues[0].cust.length;
-  //   queues[0].totalItems -= removedCust.itemCount;
-  //   setQueues([...queues]);
-  // };
-
+ 
   const handlePushWaitingCustomer = () => {
     let pushedCust = waitingCustomers.shift();
     handleAddCustomer(pushedCust);
@@ -40,9 +34,7 @@ export const Waiting = ({
       <button className="btn" onClick={handlePushWaitingCustomer}>
         Add Customer
       </button>
-      {/* <button className="btn" onClick={handleRemoveCustomer}>
-        Remove Customer
-      </button> */}
+  
       <div>
         {waitingCustomers.map((c, ind) => (
           <Customer key={ind} num={c.itemCount} />
