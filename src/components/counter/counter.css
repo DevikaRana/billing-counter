@@ -1,0 +1,26 @@
+.ctable {
+    margin-top: 5%;
+    border: 1px solid black;
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+    background-image: linear-gradient(to right, rgb(234, 229, 215),rgb(236, 228, 207), rgb(225, 218, 183));
+    
+}
+
+.ctr {
+    border: 2px solid rgb(21, 21, 21);
+    width: 20%;
+    height: 30%;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 20px;
+    background-color: rgb(236, 237, 208);
+     display: grid;
+    align-content: center; 
+
+    
+}

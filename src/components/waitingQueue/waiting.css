@@ -1,0 +1,15 @@
+.block{
+    border: 1px solid black;
+    height: 70vh;
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.queue {
+    border: 1px solid rgb(46, 46, 45);
+    height: 80%;
+    
+    justify-content: center;
+    margin-right: 5px;
+}
