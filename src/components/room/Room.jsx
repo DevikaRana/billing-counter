@@ -2,10 +2,10 @@ import "./room.css";
 import Queue from "./Queue";
 import { useEffect, useState } from "react";
 import { Waiting } from "../waitingQueue/Waiting";
+import { queuesData } from "../../data/customers";
 
-import { customers } from "../../data/customers";
 const Room = () => {
-  const [queues, setQueues] = useState(customers);
+  const [queues, setQueues] = useState(queuesData);
   useEffect(() => {
     console.log("useeee", queues);
     setInterval(() => {

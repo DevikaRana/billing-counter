@@ -1,4 +1,4 @@
-export const customers = [
+export const queuesData = [
     {
       custCount: 2,
       cust: [{ itemCount: 9 }, { itemCount: 2 }],
